@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hangman Game</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <div id="discription">
+      <h1>HANGMAN!</h1>
+      <p>Click the alphabets to Guess the word</p>
+      <p id="guess" style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></p>
+   </div>
+   <div id="hangMan-image">
+      <img src="./image/6.jpg" alt="">
+   </div>
+   <!-- <div id="flex-container">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+   </div> -->
+   
+   <div class="alpabets">
+      <button class="btn btn-primary" id="a" onclick=yourClick(this)>A</button>
+      <button class="btn btn-primary" id="b" onclick=yourClick(this)>B</button>
+      <button class="btn btn-primary" id="c" onclick=yourClick(this)>C</button>
+      <button class="btn btn-primary" id="d" onclick=yourClick(this)>D</button>
+      <button class="btn btn-primary" id="e" onclick=yourClick(this)>E</button>
+      <button class="btn btn-primary" id="f" onclick=yourClick(this)>F</button>
+      <button class="btn btn-primary" id="g" onclick=yourClick(this)>G</button>
+      <button class="btn btn-primary" id="h" onclick=yourClick(this)>H</button>
+      <button class="btn btn-primary" id="i" onclick=yourClick(this)>I</button>
+      <button class="btn btn-primary" id="j" onclick=yourClick(this)>J</button>
+      <button class="btn btn-primary" id="k" onclick=yourClick(this)>K</button>
+      <button class="btn btn-primary" id="l" onclick=yourClick(this)>L</button>
+      <button class="btn btn-primary" id="m" onclick=yourClick(this)>M</button>
+      <button class="btn btn-primary" id="n" onclick=yourClick(this)>N</button>
+      <button class="btn btn-primary" id="o" onclick=yourClick(this)>O</button>
+      <button class="btn btn-primary" id="p" onclick=yourClick(this)>P</button>
+      <button class="btn btn-primary" id="q" onclick=yourClick(this)>Q</button>
+      <button class="btn btn-primary" id="r" onclick=yourClick(this)>R</button>
+      <button class="btn btn-primary" id="s" onclick=yourClick(this)>S</button>
+      <button class="btn btn-primary" id="t" onclick=yourClick(this)>T</button>
+      <button class="btn btn-primary" id="u" onclick=yourClick(this)>U</button>
+      <button class="btn btn-primary" id="v" onclick=yourClick(this)>V</button>
+      <button class="btn btn-primary" id="w" onclick=yourClick(this)>W</button>
+      <button class="btn btn-primary"id="x" onclick=yourClick(this)>X</button>
+      <button class="btn btn-primary" id="y" onclick=yourClick(this)>Y</button>
+      <button class="btn btn-primary" id="z" onclick=yourClick(this)>Z</button>
+      
+
+
+   </div>
+   <!-- <div class="getWord">
+      <button>Get Word</button>
+   </div> -->
+   <script src="./script.js"></script>
+</body>
+
+</html>
